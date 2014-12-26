@@ -1,0 +1,16 @@
+131 -	Michael Jackson Styled Motions (14 trials)
+125 -	Swimming (7 trials)
+10 -	kick soccer ball (6 trials)
+33 -	throw and catch football (2 subjects - subject A) (2 trials)
+4921- 	acrobatics - spin/twirl, hang on ropes
+1417 - 	laugh
+1424 - direct traffic, wave, point
+4902 - 	jump up and down, hop on one foo
+4002 - navigate - walk forward, backward, on a diagonal
+102 -  	Basketball (33 trials)
+09 - run (12 trials)
+63 -  	golf (1 trials)
+
+----------------------------------------------
+Carnegie Mellon University Motion Capture Database
+http://mocap.cs.cmu.edu

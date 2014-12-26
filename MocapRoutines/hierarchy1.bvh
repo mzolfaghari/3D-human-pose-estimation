@@ -1,0 +1,126 @@
+HIERARCHY
+ROOT hip
+{
+	OFFSET	0.00  0.00  0.00 
+	CHANNELS 6 Xposition Yposition Zposition Xrotation Zrotation Yrotation
+	JOINT abdomen
+	{
+		OFFSET	0 1.75528 0 
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT chest
+		{
+			OFFSET	0 2.25586 0 
+			CHANNELS 3 Zrotation Xrotation Yrotation 
+			JOINT neckDummy
+			{
+				OFFSET	0 2.25586 0 
+				CHANNELS 3 3 Zrotation Xrotation Yrotation
+				JOINT neck
+				{
+					OFFSET	0 2.25586 0 
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT head
+					{
+						OFFSET	0 1.99341 0 
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT figureHair
+						{
+							OFFSET	0.000000 4.699570 0.720622
+							CHANNELS 3 Zrotation Yrotation Xrotation
+							End Site
+							{
+								OFFSET 0.000000 -6.419331 0.000000
+							}
+						}
+					}
+				}
+			}
+			JOINT lCollar
+			{
+				OFFSET	0 3.8423 0
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT lShldr
+				{
+					OFFSET	2.23155 0 0 
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT lForeArm
+					{
+						OFFSET	0 -4.63975 0 
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT lHand
+						{
+							OFFSET	0 -3.77172 0 
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET 0 -2.8307 0
+							}
+						}
+					}
+				}
+			}
+			JOINT rCollar
+			{
+				OFFSET	0 3.8423 0
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT rShldr
+				{
+					OFFSET	-2.32756 0 0 
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT rForeArm
+					{
+						OFFSET	0 -4.57061 0 
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT rHand
+						{
+							OFFSET	0 -3.65649 0 
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET 0 -2.74238 0 
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	JOINT lThigh
+	{
+		OFFSET	1.31741 0 0 
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT lShin
+		{
+			OFFSET	0 -7.09406 0 
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT lFoot
+			{
+				OFFSET	0 -6.89432 0 
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET 0 -1.19835 0 
+				}
+			}
+		}
+	}
+	JOINT rThigh
+	{
+		OFFSET	-1.31741 0 0 
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT rShin
+		{
+			OFFSET	0 -7.22466 0 
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT rFoot
+			{
+				OFFSET	0 -6.74839 0 
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET 0 -1.24829 0 
+				}
+			}
+		}
+	}
+}
