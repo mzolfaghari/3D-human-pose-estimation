@@ -57,7 +57,7 @@ Please find it in https://github.com/mzolfaghari/3DPoseUsingCoupleSparseCoding/D
 <ul class="task-list">
 <li>Run.m is the main function to reproduce the results in the paper.</li>
 <li>To generate 3D human shapes you need produce BVH formats of each video sequence.
-In this code, we provide Demo.m which produces BVH formats for estimated poses. Then you can import generated BVHs into any proper software like POSER (available at http://www.poser.com) to generate 3D human shapes.</li>
+In this code, we provide Demo_renderBVH.m which produces BVH formats for estimated poses. Then you can import generated BVHs into any proper software like POSER (available at http://www.poser.com) to generate 3D human shapes.</li>
 
 <br>
  In 'Help_ImportBVH_POSER.png' you can find how to import BVH into POSER
@@ -67,7 +67,9 @@ In this code, we provide Demo.m which produces BVH formats for estimated poses. 
 Please refer to renderbody_example function in the MocapRoutines folder to
 find more methods in rendering your 3D Human models provided by Ankur
 Agarwal in "Recovering 3D Human Pose from Monocular Images", PAMI, 2005
-
+<br>
+Also, you can find useful tools to animate your outputs in:
+http://mocap.cs.cmu.edu/tools.php
 </ul>
 
 <br>
