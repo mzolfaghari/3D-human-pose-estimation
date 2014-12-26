@@ -49,11 +49,12 @@ In the paper, We tested the performance of the proposed method on CMU Mocap data
 
 Please find it in https://github.com/mzolfaghari/3DPose_CoupleSparse/tree/master/Database
 <ul class="task-list">
-
-<h3>Usage:</h3>
 <li> X (100-D) correspond to the Histogram of Shape Context features extracted from images </li>
 <li> Y (60-D) correspond to 3D pose of images.</li>
 </ul>
+
+<h3>Usage:</h3>
+
 <ul class="task-list">
 <li>Run.m is the main function to reproduce the results in the paper.</li>
 <li>To generate 3D human shapes you need produce BVH formats of each video sequence.
