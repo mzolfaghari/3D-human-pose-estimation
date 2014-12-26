@@ -40,7 +40,7 @@ Mohammadreza Zolfaghari (Sharif University of Technology), Amin Jourabloo (Michi
 
 
 
-Download source code from https://github.com/mzolfaghari/3DPose_CoupleSparse/tree/master/Database 
+Download source code from https://github.com/mzolfaghari/3DPose_CoupleSparse 
 
 <p>
 
