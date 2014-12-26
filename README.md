@@ -40,14 +40,14 @@ Mohammadreza Zolfaghari (Sharif University of Technology), Amin Jourabloo (Michi
 
 
 
-Download source code from https://github.com/mzolfaghari/3DPoseUsingCoupleSparseCoding 
+Download source code from https://github.com/mzolfaghari/3DPose_CoupleSparse/tree/master/Database 
 
 <p>
 
 <h3>Database:</h3>
 In the paper, We tested the performance of the proposed method on CMU Mocap database which consists of different activities such as acrobatic, navigate, throw and catch football, golf, laugh, Michael Jackson styled motions, run and kick soccer ball. It is available online at http://mocap.cs.cmu.edu. In all the experiments, we used this dataset in BVH format to create synthesized poses rendered from real motion captured data by POSER
 
-Please find it in https://github.com/mzolfaghari/3DPoseUsingCoupleSparseCoding/Database
+Please find it in https://github.com/mzolfaghari/3DPose_CoupleSparse/tree/master/Database
 <ul class="task-list">
 
 <h3>Usage:</h3>
