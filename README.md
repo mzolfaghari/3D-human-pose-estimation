@@ -48,13 +48,26 @@ Download source code from https://github.com/mzolfaghari/3DPoseUsingCoupleSparse
 In the paper, We tested the performance of the proposed method on CMU Mocap database which consists of different activities such as acrobatic, navigate, throw and catch football, golf, laugh, Michael Jackson styled motions, run and kick soccer ball. It is available online at http://mocap.cs.cmu.edu. In all the experiments, we used this dataset in BVH format to create synthesized poses rendered from real motion captured data by POSER
 
 Please find it in https://github.com/mzolfaghari/3DPoseUsingCoupleSparseCoding/Database
+<ul class="task-list">
 
 <h3>Usage:</h3>
-
+<li> X (100-D) correspond to the Histogram of Shape Context features extracted from images </li>
+<li> Y (60-D) correspond to 3D pose of images.</li>
+</ul>
 <ul class="task-list">
 <li>Run.m is the main function to reproduce the results in the paper.</li>
 <li>To generate 3D human shapes you need produce BVH formats of each video sequence.
 In this code, we provide Demo.m which produces BVH formats for estimated poses. Then you can import generated BVHs into any proper software like POSER (available at http://www.poser.com) to generate 3D human shapes.</li>
+
+<br>
+ In 'Help_ImportBVH_POSER.png' you can find how to import BVH into POSER
+ software
+
+<br>
+Please refer to renderbody_example function in the MocapRoutines folder to
+find more methods in rendering your 3D Human models provided by Ankur
+Agarwal in "Recovering 3D Human Pose from Monocular Images", PAMI, 2005
+
 </ul>
 
 <br>
